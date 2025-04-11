@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>6annonce.net - Connexion</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">6annonce.net</div>
+        <div class="nav-links">
+            <button class="nav-btn">LOGIN</button>
+            <button class="nav-btn twitter">🐦 SIGUP NOW</button>
+        </div>
+    </div>
+
+    <div class="login-box">
+        <h2>Connexion membre</h2>
+        <form method="POST">
+            <input type="text" name="username" placeholder="Nom d'utilisateur" required><br>
+            <input type="password" name="password" placeholder="Mot de passe" required><br>
+            <input type="submit" value="Se connecter">
+        </form>
+    </div>
+</body>
+</html>
